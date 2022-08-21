@@ -1,0 +1,8 @@
+print('Quer calcular seu IMC(Indice de massa corporal)?')
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura: '))
+res = peso/(altura*altura)
+print('seu IMC é igual a: {}'.format(res))
+print('Sendo que o ideal é entre 16 e 26.')
+print('caso vc esteja com um IMC bom...')
+print('PARABÉNS')
